@@ -1,0 +1,50 @@
+\documentclass[11pt, a4paper, oneside]{article}
+\usepackage[top=2cm,bottom=2cm,left=2cm,right=2cm]{geometry}
+\usepackage{charter}
+\usepackage{microtype}
+
+\begin{document}
+
+\pagestyle{empty} % no page numbering
+\setlength\parindent{0em} % no indentation
+
+% define commands for various text styles
+% stretch automatically leaves gaps between pieces to fill page
+\newcommand\piece[2]{\vspace{\stretch{1}} \large \setlength\parskip{0em} #1 \hfill #2 \par}
+\newcommand\performer[1]{\normalsize \setlength\parskip{0.4em} { \centering \textbf{#1} \par} }
+\newcommand\movts[1]{\normalsize \setlength\parskip{0.3em} \textbf{#1} \par}
+\newcommand\notes[1]{\normalsize \setlength\parskip{0.55em} #1 \par}
+
+\begin{center}
+\vspace*{0cm} % space above titles
+
+\huge \textbf{Title of Concert}\\ \vspace*{0.3cm}
+\Large List of performers\\
+or subtitle\\ \vspace*{0.4cm}
+\large Monday 1\textsuperscript{st} January 2000 -- 7.30pm -- Venue
+
+\vspace*{0.7cm} % space below titles
+\end{center}
+
+\piece{Title of piece}{Composer (1900--2000)}
+\performer{Name of performer (instrument)}
+\movts{Movement 1\\
+Movement 2\\
+Movement 3}
+\notes{Programme notes. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu mauris tincidunt, hendrerit est vitae, luctus sem. Praesent sed finibus erat, quis cursus diam. Vivamus neque lacus, iaculis eu mi in, placerat commodo metus. Aenean tempor felis eros. Praesent dui ex, facilisis quis sapien sed, ullamcorper sagittis elit. Pellentesque eu euismod odio, a sollicitudin lorem. Etiam maximus iaculis placerat. Duis semper, diam nec volutpat tincidunt, diam libero maximus diam, quis cursus nibh quam in orci. Vivamus malesuada accumsan suscipit.}
+
+\piece{Title of piece}{Composer (1900--2000)}
+\performer{Name of performer (instrument)}
+\movts{Movement 1\\
+Movement 2\\
+Movement 3}
+\notes{Programme notes. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu mauris tincidunt, hendrerit est vitae, luctus sem. Praesent sed finibus erat, quis cursus diam. Vivamus neque lacus, iaculis eu mi in, placerat commodo metus. Aenean tempor felis eros. Praesent dui ex, facilisis quis sapien sed, ullamcorper sagittis elit. Pellentesque eu euismod odio, a sollicitudin lorem. Etiam maximus iaculis placerat. Duis semper, diam nec volutpat tincidunt, diam libero maximus diam, quis cursus nibh quam in orci. Vivamus malesuada accumsan suscipit.}
+
+\piece{Title of piece}{Composer (1900--2000)}
+\performer{Name of performer (instrument)}
+\movts{Movement 1\\
+Movement 2\\
+Movement 3}
+\notes{Programme notes. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu mauris tincidunt, hendrerit est vitae, luctus sem. Praesent sed finibus erat, quis cursus diam. Vivamus neque lacus, iaculis eu mi in, placerat commodo metus. Aenean tempor felis eros. Praesent dui ex, facilisis quis sapien sed, ullamcorper sagittis elit. Pellentesque eu euismod odio, a sollicitudin lorem. Etiam maximus iaculis placerat. Duis semper, diam nec volutpat tincidunt, diam libero maximus diam, quis cursus nibh quam in orci. Vivamus malesuada accumsan suscipit.}
+
+\end{document}
